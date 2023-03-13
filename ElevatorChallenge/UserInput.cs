@@ -11,6 +11,8 @@
         /// <returns>A new instance of the ElevatorSystem class.</returns>
         public static ElevatorSystem InitializeElevatorSystem()
         {
+            Console.WriteLine("Initialize the elevator system by entering the number of elevators, the maximum floor, and the maximum capacity per elevator.\n");
+
             // Get user input for the number of elevators
             int numElevators = GetPositiveIntegerInput("Enter the number of elevators: ");
 
